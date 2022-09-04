@@ -1,1 +1,1 @@
-a simple template
+a simple templ
