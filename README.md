@@ -1,1 +1,1 @@
-will be changed
+a simple template
