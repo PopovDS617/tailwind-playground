@@ -1,7 +1,8 @@
 import React from 'react';
+import { text } from '../text';
 
 const Feed = () => {
-  return <p>Feed</p>;
+  return <p>{text}</p>;
 };
 
 export default Feed;
