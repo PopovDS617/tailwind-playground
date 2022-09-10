@@ -7,7 +7,7 @@ import Ads from './components/Ads';
 
 function App() {
   return (
-    <div className="h-screen bg-gray-500">
+    <div className="h-screen  ">
       <section className="h-full m-2 flex flex-col justify-center items-center  text-center">
         <div
           className="h-1/6 w-11/12 m-2  rounded-xl   bg-teal-700 text-center  
@@ -27,10 +27,27 @@ function App() {
           </div>
         </div>
         <div className="flex h-1/6 w-11/12">
-          <div className="animate-spin w-2/4 m-2  rounded-xl bg-blue-700 hover:-rotate-1">
+          <div className="  w-2/4 m-2  rounded-xl bg-blue-700 hover:-rotate-1">
             <Footer />
           </div>
-          <div className="w-2/4 m-2  rounded-xl bg-green-700">
+          <div className="w-2/4 m-2 rounded-xl bg-green-700 ">
+            <button className="group bg-purple-500 border px-6 py-2 text-white ">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-6 h-6 inline group-hover:animate-bounce"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M4.5 12.75l6 6 9-13.5"
+                />
+              </svg>
+              Hello
+            </button>
             <Ads />
           </div>
         </div>
