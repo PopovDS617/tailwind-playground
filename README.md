@@ -1,1 +1,3 @@
-a simple templ
+### npm install
+
+### npm start

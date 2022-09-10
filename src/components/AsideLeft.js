@@ -4,7 +4,7 @@ const AsideLeft = () => {
   return (
     <div>
       AsideLeft
-      <ul>
+      <ul className="group-hover:text-lime-700">
         <li>one</li>
         <li>two</li>
         <li>three</li>
